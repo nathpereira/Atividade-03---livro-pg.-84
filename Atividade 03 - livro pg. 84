@@ -1,0 +1,22 @@
+Console.WriteLine("Digite a primeira nota:");
+        double nota1 = double.Parse(Console.ReadLine());
+
+        Console.WriteLine("Digite a segunda nota:");
+        double nota2 = double.Parse(Console.ReadLine());
+
+        double media = (nota1 + nota2) / 2;
+
+        if (media > 6.0)
+        {
+            Console.WriteLine("Média superior à média mínima (6,0)");
+        }
+        else if (media == 6.0)
+        {
+            Console.WriteLine("Média igual à média mínima (6,0)");
+        }
+        else
+        {
+            Console.WriteLine("Média inferior à média mínima (6,0)");
+        }
+    }
+}
